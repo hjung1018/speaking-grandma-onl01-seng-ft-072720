@@ -2,11 +2,11 @@
 def speak_to_grandma(phrase)
 
 # Whatever you say to grandma, she should respond with
-if phrase.downcase
+if phrase == phrase.downcase
   "HUH?! SPEAK UP, SONNY!"
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
-elsif phrase.upcase
+elsif phrase == phrase.upcase
   "NO, NOT SINCE 1983"
 
 # If you shout, she can hear you (or at least she thinks so) 
